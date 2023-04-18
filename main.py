@@ -1,14 +1,12 @@
 __author__ = 'alex'
 
 from PIL import Image, ImageDraw
-#import Image
-#import ImageDraw
 
 from routines import draw_word
 
 
-width = 1920
-height = 1080
+width = 640
+height = 480
 word = "ALGEBRA"
 
 img = Image.new("RGB", (width, height), "black")
