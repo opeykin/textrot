@@ -65,7 +65,7 @@ def draw_line(matrix, draw, color):
 
 
 def draw_letter(word, level, matrix, points, draw, color):
-    for j in xrange(0, points.shape[1], 2):
+    for j in range(0, points.shape[1], 2):
         line = points[0:3, j:j + 2]
         matrix1 = matrix * line_matrix(line)
 
